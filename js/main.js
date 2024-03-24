@@ -342,7 +342,7 @@ $('#switchmore').on('click', function () {
     if (shoemore && $(document).width() >= 990) {
         $('#container').attr('class', 'container mores');
         $("#change").html("Oops&nbsp;!");
-        $("#change1").html("哎呀，这都被你发现了（ 再点击一次可关闭 ）");
+        $("#change1").html("哎呀，这都被你发现了( 再点击一次可关闭 )");
     } else {
         $('#container').attr('class', 'container');
         $("#change").html("Hello&nbsp;World&nbsp;!");
@@ -456,8 +456,8 @@ var title2 = `
 |_____|_|  |_|_____/   |_|      |_|                                                     
 `
 var content = `
-版 本 号：3.3
-更新日期：2024-03-22
+版 本 号:3.3
+更新日期:2024-03-22
 
 主页:  https://jiu-ying.top
 Github:  https://github.com/JIUYINGSHI
